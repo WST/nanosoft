@@ -74,7 +74,7 @@ AC_CHECK_LIB(sasl2, main, [], [
 		fi
 	])
 
-WITH_MYSQL=no
+WITH_MYSQL=yes
 MYSQL_LIBS=""
 AC_ARG_WITH(mysql, AS_HELP_STRING([--with-mysql=PREFIX], [MySQL client library]), [
 		if test "$withval" != "yes"; then
