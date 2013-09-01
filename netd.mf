@@ -14,6 +14,7 @@ install-netd-headers:
 	$(INSTALL_INC) $(ns_srcdir)/include/nanosoft/asyncserver.h $(INCLUDEDIR)/nanosoft/asyncserver.h
 	$(INSTALL_INC) $(ns_srcdir)/include/nanosoft/asyncudpserver.h $(INCLUDEDIR)/nanosoft/asyncudpserver.h
 	$(INSTALL_INC) $(ns_srcdir)/include/nanosoft/netdaemon.h $(INCLUDEDIR)/nanosoft/netdaemon.h
+	$(INSTALL_INC) $(ns_srcdir)/include/nanosoft/asyncdns.h $(INCLUDEDIR)/nanosoft/asyncdns.h
 
 libns_netd.a: $(NANOSOFT_NETD)
 	$(AR) rc libns_netd.a $(NANOSOFT_NETD)
