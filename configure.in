@@ -31,6 +31,8 @@ AC_CHECK_TOOL(AR, ar, ar)
 AC_CHECK_TOOL(RANLIB, ranlib, ranlib)
 AC_CHECK_TOOL(MKDIR, mkdir, mkdir)
 
+AC_DEFINE(HAVE_GNUTLS)
+
 SASL=none
 SASL_LIBS=""
 AC_ARG_WITH(sasl, AS_HELP_STRING([--with-sasl=TYPE], [switch SASL library (cyrus, gnu, none)]), [

@@ -4036,6 +4036,9 @@ else
 fi
 
 
+$as_echo "#define HAVE_GNUTLS 1" >>confdefs.h
+
+
 SASL=none
 SASL_LIBS=""
 
@@ -4176,7 +4179,7 @@ else
 fi
 
 
-WITH_MYSQL=no
+WITH_MYSQL=yes
 MYSQL_LIBS=""
 
 # Check whether --with-mysql was given.
