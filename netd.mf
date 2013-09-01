@@ -7,8 +7,6 @@ NANOSOFT_NETD+=asyncudpserver.o
 NANOSOFT_NETD+=asyncxmlstream.o
 NANOSOFT_NETD+=asyncdns.o
 
-NANOSOFT_NETD+=switchlogserver.o
-
 install-netd-headers:
 	$(INSTALL_INC) $(ns_srcdir)/include/nanosoft/asyncobject.h $(INCLUDEDIR)/nanosoft/asyncobject.h
 	$(INSTALL_INC) $(ns_srcdir)/include/nanosoft/asyncstream.h $(INCLUDEDIR)/nanosoft/asyncstream.h
@@ -41,6 +39,3 @@ asyncdns.o: $(ns_srcdir)/libnetd/asyncdns.cpp $(ns_srcinc)/nanosoft/asyncobject.
 
 asyncobject.o: $(ns_srcdir)/libnetd/asyncobject.cpp $(ns_srcinc)/nanosoft/asyncobject.h
 	$(CXX) -c $(ns_srcdir)/libnetd/asyncobject.cpp
-
-switchlogserver.o: $(ns_srcdir)/libnetd/switchlogserver.cpp $(ns_srcinc)/nanosoft/switchlogserver.h $(ns_srcinc)/nanosoft/asyncserver.h
-	$(CXX) -c $(ns_srcdir)/libnetd/switchlogserver.cpp
