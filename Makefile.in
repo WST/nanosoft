@@ -62,7 +62,6 @@ LINUX_PROGS+=showpath
 LINUX_EXAMPLES=streams
 LINUX_EXAMPLES+=options
 LINUX_EXAMPLES+=string
-LINUX_EXAMPLES+=daemon
 LINUX_EXAMPLES+=pools
 LINUX_EXAMPLES+=mparser
 LINUX_EXAMPLES+=ring
@@ -158,9 +157,6 @@ pools: $(ns_srcexm)/pools.cpp libnanosoft.a
 
 mysql: $(ns_srcexm)/mysql.cpp libnanosoft.a
 	$(CXX) $(ns_srcexm)/mysql.cpp -lnanosoft -lpthread $(LDFLAGS) $(MYSQL_LIBS) $(LIBS) -o mysql
-
-daemon: $(ns_srcexm)/daemon.cpp libnanosoft.a
-	$(CXX) $(ns_srcexm)/daemon.cpp -o daemon -lpthread -lnanosoft -lexpat
 
 mparser: $(ns_srcexm)/mparser.cpp $(ns_srcinc)/nanosoft/math.h libns_math.a
 	$(CXX) $(ns_srcexm)/mparser.cpp -o mparser -lns_math
