@@ -92,7 +92,10 @@ install-linux: forker miniget wait time masterd nsu miniget2 showpath libnanosof
 	$(INSTALL_BIN) miniget2 $(BINDIR)/miniget2
 	$(INSTALL_BIN) uncat $(BINDIR)/uncat
 	$(INSTALL_BIN) showpath $(BINDIR)/showpath
-	$(INSTALL_LIB) libnanosoft.a $(LIBDIR)/libnanosoft.a
+	$(INSTALL_LIB) libns_core.a $(LIBDIR)/libns_core.a
+	$(INSTALL_LIB) libns_netd.a $(LIBDIR)/libns_netd.a
+	$(INSTALL_LIB) libns_xml.a $(LIBDIR)/libns_xml.a
+	$(INSTALL_LIB) libns_sasl.a $(LIBDIR)/libns_sasl.a
 
 install-mingw32: libnanosoft.a miniget2
 	$(INSTALL_BIN) miniget2 $(BINDIR)/miniget2
@@ -103,7 +106,7 @@ test: mparser_test
 all-mingw32: libnanosoft.a miniget2 parse_url streams options string
 	echo > all-mingw32
 
-all-linux: $(LINUX_PROGS) $(LINUX_EXAMPLES) libnanosoft.a
+all-linux: $(LINUX_PROGS) $(LINUX_EXAMPLES) libns_core.a libns_netd.a libns_xml.a libns_sasl.a
 	echo > all-linux
 
 # PROGRAMS
