@@ -1,8 +1,4 @@
 
-#undef HAVE_GAI_STRERROR
-#undef UNIX
-#undef WINDOWS
-
 /**
 * Размер блока файлового буфера
 */
@@ -41,25 +37,12 @@
 /**
 * Поддержка GnuTLS
 */
-#undef HAVE_GNUTLS
+#define HAVE_GNUTLS
 
 /**
 * Поддержка GNU SASL library
 */
-#undef HAVE_GSASL
+#define HAVE_GSASL
 
-///////////////////////////////////////////////////////////////////////////
-
-#ifdef WINDOWS
-
-#undef USE_GETADDRINFO
-
-#endif
-
-///////////////////////////////////////////////////////////////////////////
-
-#ifdef UNIX
 
 #define USE_GETADDRINFO
-
-#endif

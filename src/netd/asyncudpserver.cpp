@@ -1,6 +1,6 @@
 
 #include "asyncudpserver.h"
-//#include "config.h"
+#include "config.h"
 
 #include <unistd.h>
 #include <sys/types.h>

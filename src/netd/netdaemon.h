@@ -10,7 +10,7 @@
 #include "object.h"
 #include "asyncobject.h"
 #include "mutex.h"
-//#include <nanosoft/config.h>
+#include "config.h"
 
 #ifdef USE_PTHREAD
 #include <pthread.h>
