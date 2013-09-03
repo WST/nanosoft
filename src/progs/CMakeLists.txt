@@ -25,3 +25,8 @@ target_link_libraries(miniget2 ns_core)
 # minisend
 add_executable(minisend minisend.cpp)
 target_link_libraries(minisend ns_core)
+
+
+INSTALL(TARGETS forker wait time uncat nsu showpath miniget miniget2 minisend
+	RUNTIME DESTINATION bin
+)
