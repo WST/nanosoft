@@ -1,6 +1,6 @@
 
 #include <math.h>
-#include <nanosoft/math.h>
+#include "math.h"
 
 #include <string>
 #include <stdio.h>

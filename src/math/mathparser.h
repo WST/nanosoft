@@ -1,7 +1,7 @@
 #ifndef NANOSOFT_MATHPARSER_H
 #define NANOSOFT_MATHPARSER_H
 
-#include <nanosoft/math.h>
+#include "math.h"
 
 #include <string>
 #include <exception>

@@ -1,4 +1,4 @@
-#include <nanosoft/mathparser.h>
+#include "mathparser.h"
 
 #include <string>
 #include <stdio.h>
