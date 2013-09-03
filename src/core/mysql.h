@@ -1,8 +1,9 @@
 #ifndef NANOSOFT_MYSQL_H
 #define NANOSOFT_MYSQL_H
 
-#include <nanosoft/mutex.h>
-#include <nanosoft/string.h>
+#include "mutex.h"
+#include "nanostring.h"
+
 #include <mysql/mysql.h>
 #include <stdio.h>
 #include <string>

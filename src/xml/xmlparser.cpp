@@ -1,5 +1,6 @@
-#include <nanosoft/error.h>
-#include <nanosoft/xmlparser.h>
+#include "error.h"
+#include "xmlparser.h"
+
 #include <string.h>
 
 using namespace std;

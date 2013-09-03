@@ -1,13 +1,16 @@
-#include <nanosoft/mysql.h>
-#include <nanosoft/error.h>
-#include <nanosoft/config.h>
+
+#include "mysql.h"
+#include "error.h"
+//#include "nanosoft/config.h"
+
 #include <mysql/mysql.h>
 #include <mysql/errmsg.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <stdarg.h>
-#include <string.h>
 #include <stdlib.h>
+
+#include "nanostring.h"
 
 #ifdef DUMP_SQL
 #include <string>

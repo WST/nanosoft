@@ -1,8 +1,9 @@
-#include <nanosoft/simplepool.h>
-#include <nanosoft/error.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stddef.h>
+#include "simplepool.h"
+#include "error.h"
+
+#include <cstring>
+#include <cstdlib>
+#include <cstddef>
 
 namespace nanosoft
 {

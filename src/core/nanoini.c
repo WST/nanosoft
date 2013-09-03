@@ -4,7 +4,7 @@
 #include <string.h>
 
 #include "nanoini.h"
-#include "nanostr.h"
+#include "functions.h"
 
 typedef struct ini_option_t
 {

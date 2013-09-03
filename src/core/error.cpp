@@ -4,7 +4,8 @@
 #include <string>
 #include <stdexcept>
 #include <iostream>
-#include <nanosoft/error.h>
+
+#include "error.h"
 
 using namespace std;
 

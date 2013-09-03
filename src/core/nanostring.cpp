@@ -1,8 +1,8 @@
 
-#include <nanosoft/string.h>
-#include <cstring>
+#include "nanostring.h"
+
 #include <cstdlib>
-#include <ctype.h>
+#include <cctype>
 
 namespace nanosoft
 {

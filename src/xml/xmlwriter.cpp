@@ -1,6 +1,6 @@
 
 #include <string.h>
-#include <nanosoft/xmlwriter.h>
+#include "xmlwriter.h"
 
 namespace
 {

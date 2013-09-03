@@ -3,7 +3,8 @@
 
 #include <stdint.h>
 #include <sys/types.h>
-#include <nanosoft/object.h>
+
+#include "object.h"
 
 class NetDaemon;
 

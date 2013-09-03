@@ -1,6 +1,7 @@
 
-#include <nanosoft/fstream.h>
-#include <nanosoft/error.h>
+#include "fstream.h"
+#include "error.h"
+
 #include <sys/stat.h>
 #include <unistd.h>
 #include <fcntl.h>

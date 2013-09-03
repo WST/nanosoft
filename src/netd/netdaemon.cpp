@@ -2,13 +2,14 @@
 #include <sys/epoll.h>
 #include <unistd.h>
 #include <fcntl.h>
-#include <nanosoft/netdaemon.h>
-#include <nanosoft/error.h>
 #include <iostream>
 #include <stdio.h>
 #include <errno.h>
 #include <string.h>
 #include <signal.h>
+
+#include "netdaemon.h"
+#include "error.h"
 
 using namespace std;
 using namespace nanosoft;

@@ -1,7 +1,7 @@
 #ifndef NANOSOFT_HASH_H
 #define NANOSOFT_HASH_H
 
-#include <nanosoft/ring.h>
+#include "ring.h"
 
 namespace nanosoft
 {

@@ -1,7 +1,8 @@
 #include <map>
 #include <string>
-#include <nanosoft/xmlnscontext.h>
-#include <nanosoft/error.h>
+
+#include "xmlnscontext.h"
+#include "error.h"
 
 using namespace std;
 

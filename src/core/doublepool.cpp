@@ -1,6 +1,6 @@
 #include <sys/types.h>
-#include <nanosoft/simplepool.h>
-#include <nanosoft/doublepool.h>
+#include "simplepool.h"
+#include "doublepool.h"
 
 namespace nanosoft
 {

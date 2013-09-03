@@ -2,8 +2,9 @@
 #define NANOSOFT_ASYNCSTREAM_H
 
 #include <sys/types.h>
-#include <nanosoft/asyncobject.h>
-#include <nanosoft/config.h>
+
+#include "asyncobject.h"
+//#include "config.h"
 
 #ifdef HAVE_LIBZ
 #include <zlib.h>

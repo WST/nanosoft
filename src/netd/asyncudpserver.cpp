@@ -1,6 +1,7 @@
 
-#include <nanosoft/asyncudpserver.h>
-#include <nanosoft/config.h>
+#include "asyncudpserver.h"
+//#include "config.h"
+
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/socket.h>

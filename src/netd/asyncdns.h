@@ -1,9 +1,10 @@
 #ifndef NANOSOFT_ASYNCDNS_H
 #define NANOSOFT_ASYNCDNS_H
 
+#include "asyncobject.h"
+#include "netdaemon.h"
+
 #include <sys/types.h>
-#include <nanosoft/asyncobject.h>
-#include <nanosoft/netdaemon.h>
 #include <udns.h>
 
 /**

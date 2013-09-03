@@ -4,7 +4,8 @@
 #include <map>
 #include <stack>
 #include <string>
-#include <nanosoft/xmlnsmanager.h>
+
+#include "xmlnsmanager.h"
 
 namespace nanosoft
 {

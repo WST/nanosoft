@@ -1,6 +1,6 @@
 
-#include <nanosoft/config.h>
-#include <nanosoft/socket.h>
+//#include <nanosoft/config.h>
+#include "socket.h"
 #include <unistd.h>
 
 #ifdef UNIX

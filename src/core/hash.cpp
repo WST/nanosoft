@@ -1,5 +1,5 @@
 
-#include <nanosoft/hash.h>
+#include "hash.h"
 
 namespace nanosoft
 {

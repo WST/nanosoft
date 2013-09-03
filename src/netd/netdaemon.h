@@ -6,10 +6,11 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <queue>
-#include <nanosoft/object.h>
-#include <nanosoft/asyncobject.h>
-#include <nanosoft/mutex.h>
-#include <nanosoft/config.h>
+
+#include "object.h"
+#include "asyncobject.h"
+#include "mutex.h"
+//#include <nanosoft/config.h>
 
 #ifdef USE_PTHREAD
 #include <pthread.h>

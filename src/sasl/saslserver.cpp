@@ -1,5 +1,5 @@
 
-#include <nanosoft/saslserver.h>
+#include "saslserver.h"
 
 /**
 * Конструктор

@@ -1,6 +1,7 @@
 
-#include <nanosoft/asyncdns.h>
-#include <nanosoft/netdaemon.h>
+#include "asyncdns.h"
+#include "netdaemon.h"
+
 #include <udns.h>
 #include <sys/epoll.h>
 #include <time.h>

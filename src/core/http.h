@@ -1,8 +1,9 @@
 #ifndef NANO_HTTP_H
 #define NANO_HTTP_H
 
-#include <nanosoft/socket.h>
-#include <nanosoft/options.h>
+#include "socket.h"
+#include "options.h"
+
 #include <cstdlib>
 
 namespace nanosoft

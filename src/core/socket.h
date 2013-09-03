@@ -1,7 +1,7 @@
 #ifndef NANO_SOCKET_H
 #define NANO_SOCKET_H
 
-#include <nanosoft/stream.h>
+#include "stream.h"
 
 namespace nanosoft
 {

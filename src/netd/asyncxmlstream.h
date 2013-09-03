@@ -2,8 +2,9 @@
 #define NANOSOFT_ASYNCXMLSTREAM_H
 
 #include <string>
-#include <nanosoft/asyncstream.h>
-#include <nanosoft/xmlparser.h>
+
+#include "asyncstream.h"
+#include "xmlparser.h"
 
 /**
 * Асинхронный парсер XML потоков

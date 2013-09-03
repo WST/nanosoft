@@ -1,5 +1,5 @@
 
-#include <nanosoft/object.h>
+#include "object.h"
 
 namespace nanosoft
 {

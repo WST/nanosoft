@@ -2,7 +2,8 @@
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
-#include <nanosoft/asyncxmlstream.h>
+
+#include "asyncxmlstream.h"
 
 using namespace std;
 

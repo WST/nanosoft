@@ -2,7 +2,7 @@
 #define NANOSOFT_DOUBLEPOOL_H
 
 #include <sys/types.h>
-#include <nanosoft/simplepool.h>
+#include "simplepool.h"
 
 namespace nanosoft
 {

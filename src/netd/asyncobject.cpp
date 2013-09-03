@@ -2,8 +2,9 @@
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
-#include <nanosoft/asyncobject.h>
-#include <nanosoft/netdaemon.h>
+
+#include "asyncobject.h"
+#include "netdaemon.h"
 
 using namespace std;
 

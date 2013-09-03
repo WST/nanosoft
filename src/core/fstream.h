@@ -3,7 +3,8 @@
 
 #include <sys/types.h>
 #include <fcntl.h>
-#include <nanosoft/stream.h>
+
+#include "stream.h"
 
 namespace nanosoft
 {

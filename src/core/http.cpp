@@ -1,17 +1,16 @@
 
-#include <nanosoft/http.h>
+#include "http.h"
 
 extern "C"
 {
-#include <nanourl.h>
-#include <nanostr.h>
+#include "nanourl.h"
+#include "functions.h"
 }
 
 #include <stdlib.h>
-#include <string.h>
+#include "string.h"
 
 #include <stdio.h>
-
 
 namespace nanosoft
 {

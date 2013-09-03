@@ -4,11 +4,13 @@
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
-#include <nanosoft/asyncstream.h>
-#include <nanosoft/netdaemon.h>
-#include <nanosoft/error.h>
-#include <nanosoft/config.h>
 #include <sys/socket.h>
+
+#include "asyncstream.h"
+#include "netdaemon.h"
+#include "error.h"
+//#include "config.h"
+
 
 using namespace std;
 

@@ -4,7 +4,8 @@
 #include <sys/types.h>
 #include <netinet/in.h>
 #include <string.h>
-#include <nanosoft/asyncobject.h>
+
+#include "asyncobject.h"
 
 /**
 * Базовый класс для асинхронных серверов

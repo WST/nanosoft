@@ -1,5 +1,6 @@
 
-#include <nanosoft/gsaslserver.h>
+#include "gsaslserver.h"
+
 #include <gsasl.h>
 #include <stdio.h>
 #include <string.h>

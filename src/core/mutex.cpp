@@ -1,5 +1,5 @@
-#include <nanosoft/mutex.h>
-#include <nanosoft/error.h>
+#include "mutex.h"
+#include "error.h"
 
 #ifdef USE_PTHREAD
 #include <pthread.h>

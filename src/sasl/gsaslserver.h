@@ -1,7 +1,8 @@
 #ifndef NANOSOFT_GSASLSERVER_H
 #define NANOSOFT_GSASLSERVER_H
 
-#include <nanosoft/saslserver.h>
+#include "saslserver.h"
+
 #include <gsasl.h>
 #include <vector>
 #include <string>
