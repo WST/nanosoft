@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(nanosoft)
 
-SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -g -Wall")
-SET(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -g -Wall")
+#SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
+#SET(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -Wall")
 
 add_subdirectory(src/core)
 add_subdirectory(src/math)
