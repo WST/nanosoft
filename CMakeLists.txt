@@ -11,3 +11,14 @@ add_subdirectory(src/math)
 add_subdirectory(src/netd)
 add_subdirectory(src/xml)
 add_subdirectory(src/sasl)
+
+ADD_CUSTOM_TARGET (distclean @echo cleaning for source distribution)
+SET(DISTCLEANED CMakeCache.txt CMakeFiles cmake_install.cmake Makefile *.a)
+
+ADD_CUSTOM_COMMAND (
+	DEPENDS clean
+	COMMENT "distribution clean"
+	COMMAND rm
+	ARGS -Rf ${DISTCLEANED}
+	TARGET  distclean
+)
