@@ -12,6 +12,9 @@ add_subdirectory(src/netd)
 add_subdirectory(src/xml)
 add_subdirectory(src/sasl)
 
+add_subdirectory(src/progs)
+#add_subdirectory(src/examples)
+
 ADD_CUSTOM_TARGET (distclean @echo cleaning for source distribution)
 SET(DISTCLEANED CMakeCache.txt CMakeFiles cmake_install.cmake Makefile *.a)
 
