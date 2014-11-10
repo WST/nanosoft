@@ -9,6 +9,7 @@ add_subdirectory(src/math)
 add_subdirectory(src/netd)
 add_subdirectory(src/xml)
 add_subdirectory(src/sasl)
+add_subdirectory(src/pigro)
 
 add_subdirectory(src/progs)
 #add_subdirectory(src/examples)

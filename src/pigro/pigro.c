@@ -74,10 +74,10 @@ int serial_fd = 0;
 
 int serial_init()
 {
-	serial_fd = open("/dev/ttyS0", O_RDWR | O_NOCTTY | O_NDELAY);
+	serial_fd = open("/dev/ttyUSB0", O_RDWR | O_NOCTTY | O_NDELAY);
 	if (serial_fd == -1)
 	{
-		perror("serial_init() Unable to open /dev/ttyS0");
+		perror("serial_init() Unable to open /dev/ttyUSB0");
 		return 0;
 	}
 	

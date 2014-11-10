@@ -4,15 +4,13 @@
 #include <string.h>
 #include <ctype.h>
 
-void strtolower(char *str)
-{
+void strtolower(char *str) {
   for(; *str; str++) *str = tolower(*str);
 }
 
-char * ltrim(char *s)
-{
+char * ltrim(char *s) {
   char *p = s;
-  while ( isspace(*p) ) p++;
+  while(isspace(*p)) p++;
   return strcpy(s, p);
 }
 
@@ -32,8 +30,7 @@ char * rtrim(char *s)
   }
 }
 
-char * trim(char *s)
-{
+char * trim(char *s) {
   return rtrim(ltrim(s));
 }
 
