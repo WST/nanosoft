@@ -111,7 +111,9 @@ namespace nanosoft
 	{
 		char *buf = new char[text.length() * 2 + 1];
 		size_t len = mysql_real_escape_string(&conn, buf, text.c_str(), text.length());
-		return std::string(buf, len);
+		std::string result(buf, len);
+		delete [] buf;
+		return result;
 	}
 	
 	/**
@@ -264,5 +266,6 @@ namespace nanosoft
 	void MySQL::result::free()
 	{
 		mysql_free_result(res->res);
+		delete res;
 	}
 }
