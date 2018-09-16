@@ -617,7 +617,9 @@ void AsyncStream::close()
 	if ( getFd() )
 	{
 		NetDaemon *daemon = getDaemon();
-		daemon->removeObject(this);
+		if ( daemon ) {
+			daemon->removeObject(this);
+		}
 		int r = ::close(getFd());
 		setFd(0);
 		if ( r < 0 ) stderror();
